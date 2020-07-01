@@ -90,12 +90,12 @@ function forcastWeatehr(input) {
         p.text(input);
         localStorage.setItem("searched-cities", JSON.stringify(input));
         searchCity(input);
-        getLastData(input)
+        // getLastData(input)
     });
-    function getLastData(input){
-       if (input !== null) { 
-        localStorage.getItem("searched-cities");
-       };
-    }
+    // function getLastData(input){
+    //    if (input !== null) { 
+    //     localStorage.getItem("searched-cities");
+    //    };
+    // }
     
 });
