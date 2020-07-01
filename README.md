@@ -11,7 +11,7 @@ AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
-
+![](/Users/sexyasian/bootCamp/Week1/Homework/Homework6/Assets/06-server-side-apis-homework-demo.png)
 ## Acceptance Criteria
 
 ```

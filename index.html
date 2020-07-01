@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pl-0">
+                <div class="card search-engine">
+                    <h2>Search for a City:</h2>
+                    <form class="form-inline mb-2">
+                        <input class="form-control" type="text" id="cityInput">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchBtn">
+                            Find
+                        </button> 
+                    </form>
+                    <div id="history"></div>
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <section class="weather-content">
+                    <div class="card mb-5" id="cityInfo">
+                     
+                    </div>
+                    
+                    <h2>5-Day Forcast:</h2>
+                    <div class="col-md-4" id="forcast">
+
+                    </div>
+                </section>
+            </div>
+        </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.27/moment-timezone-with-data.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.27/moment-timezone-utils.js"></script>
+<script src="./Assets/weather.js"></script>
+</body>
+
+</html>
