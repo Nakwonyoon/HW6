@@ -11,6 +11,11 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 ![](/Users/sexyasian/bootCamp/Week1/Homework/Homework6/Assets/06-server-side-apis-homework-demo.png)
+# Description
+If you search a city, this app will gives you current weather inculing Temperature, Humidity, UV Index, weather Icon, and Wind Speed also givng you 5 days of forcast weatehr. Unfortunately, There were some errors with localstroage problem can't pull the previous serached city information. What you have to is search it again.
+# Images
+![](Assets/aftertyped.png)
+![](Assets/beforetype.png)
 ## Acceptance Criteria
 
 ```
