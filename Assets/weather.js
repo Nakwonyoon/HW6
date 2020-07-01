@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     function searchCity(input) {
-        var APIKey = "d7d7f5e1c3c64dc3ef0e7cb3f8e5306d";
+        var APIKey = "166a433c57516f51dfab1f7edaed8413";
         var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + input + "&units=imperial&appid=" + APIKey;
         console.log(queryURL);
         $.ajax({

@@ -14,8 +14,11 @@ SO THAT I can plan a trip accordingly
 # Description
 If you search a city, this app will gives you current weather inculing Temperature, Humidity, UV Index, weather Icon, and Wind Speed also givng you 5 days of forcast weatehr. Unfortunately, There were some errors with localstroage problem can't pull the previous serached city information. What you have to is search it again.
 # Images
-![](Assets/aftertyped.png)
+Before Type city name:
 ![](Assets/beforetype.png)
+
+After :
+![](Assets/aftertyped.png)
 ## Acceptance Criteria
 
 ```
