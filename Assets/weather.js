@@ -55,7 +55,7 @@ $(document).ready(function () {
         }
 function forcastWeatehr(input) {
     var APIKey = "166a433c57516f51dfab1f7edaed8413";
-    var fiveDayQueryUrl = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" +input + "&cnt=5" + "&units=imperial" + "&appid=" + APIKey;
+    var fiveDayQueryUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" +input + "&cnt=5" + "&units=imperial" + "&appid=" + APIKey;
         $.ajax({
                 url: fiveDayQueryUrl,
                 
